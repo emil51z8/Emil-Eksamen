@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1 Elpriser
+  p#es1p Dette er en oversigt over priser på el hentet fra API
+  a(href="/") Forside
+
+  table 
+      tr 
+          th pris pr. kwh DKK
+          th pris pr. kwh EURO 
+          th EXR
+          th tid start
+          th tid slut 
+        
+            
+      each price in prices
+          tr 
+              td= price.DKK_per_kWh
+              td= price.EUR_per_kWh
+              td= price.EXR
+              td= price.time_start 
+              td= price.time_end
+                

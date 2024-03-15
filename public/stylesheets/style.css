@@ -1,0 +1,80 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  font-size: 20px;
+  background-color: #00B7FF;
+  color: white;
+  margin: 20px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+table {
+  margin-top: 10px;
+}
+
+th {
+  background-color: royalblue;
+  color: white;
+}
+th,td {
+  padding: 12px 15px;
+  text-align: left;
+}
+td{
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+}
+
+#indexP{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer{
+  margin-top: 50%;
+}
+
+#es2p{
+  text-align: center;
+  font-size: 20px;
+  color: brown;
+  font-weight: bold;
+}
+
+#es1p{
+  text-align: center;
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+form{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+  width: 60%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20%;
+}
+
+#opretP{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+

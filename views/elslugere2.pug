@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1 Elsugere2
+  p#es2p Dette er en oversigt over elslugere der hentes fra databasen
+  a(href="/") Forside
+
+  table 
+       tr 
+           th Id
+           th Apparat 
+           th Forbrug 
+           th Forbrug pr. år i kwh ca.
+       each elsluger in elslugerer
+           tr 
+               td= elsluger.id
+               td= elsluger.apparat
+               td= elsluger.forbrug
+               td= elsluger.forbrugKWH

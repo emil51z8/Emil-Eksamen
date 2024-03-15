@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Elsugere1
+  p#opretP Her kan du oprette en ny elsluger
+  a(href="/") Forside
+
+  form(action="/opretelsluger", method="POST")
+    label(for="apparat") Apparat
+    input(type="text", name="apparat")
+    label(for="forbrug") Forbrug
+    input(type="text", name="forbrug")
+    label(for="forbrugKWH") Forbrug pr. år i kwh ca.
+    input(type="text", name="forbrugKWH")
+    input(type="submit", value="Opret Elsluger")
